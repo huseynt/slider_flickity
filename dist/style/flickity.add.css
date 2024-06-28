@@ -1,0 +1,32 @@
+.flickity-button {
+    background: transparent;
+}
+.flickity-button:hover {
+    background: #ff990026;
+    transition: .3s linear;
+}
+.flickity-prev-next-button {
+    width: 50px;
+    height: 50px;
+}
+.flickity-button-icon {
+    fill: white;
+}
+.flickity-button:disabled {
+    display: none;
+}
+.flickity-page-dots {
+    bottom: -22px;
+}
+.flickity-page-dots .dot {
+    height: 4px;
+    width: 40px;
+    margin: 0;
+    border-radius: 0;
+    background-color: #00ffff53;
+}
+.flickity-page-dots .dot.is-selected {
+    background: #9fd6eebd;
+    box-shadow: 0 0 5px 5px #ffffff25;
+    transition: 1s linear;
+  }
